@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit.components.v1 as components
+
 # from PIL import Image
 # from analysis import add_footer
 

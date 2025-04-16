@@ -48,6 +48,10 @@ The app is modular, organized into separate python files:
 - `fun.py` — Collection of funny, odd, and charming discoveries about Eurovision that have nothing to do with winning.
 - `references.py` — Credits the data sources used for this app.
 
+There are also folders for html files and data .csv files:
+-htmls: contains html files connecting Tableau visualizations for the app.
+-data: contains .csv files containing data used for this project.
+
 ---
 
 ## 🤯 **Features**

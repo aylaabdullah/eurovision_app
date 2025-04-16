@@ -25,7 +25,14 @@ def show_background():
         </div>""", unsafe_allow_html=True
     )
 
-#INSERT FIRST/LAST YEAR MAPS HERE
+#Youtube Map Dashboard Here
+
+    path_to_html = "./htmls/youtube_map_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
 
     st.markdown(
         """
@@ -38,4 +45,11 @@ def show_background():
         </div>""", unsafe_allow_html=True
     )
 
-# INSERT WINNERS AND TOP 3
+#Top3 Dashboard Here
+
+    path_to_html = "./htmls/top3_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)

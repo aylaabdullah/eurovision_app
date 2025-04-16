@@ -16,7 +16,7 @@ def show_background():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p>
         Over time, the competitors in Eurovision have looked very different. 
         Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
@@ -36,7 +36,7 @@ def show_background():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p> So, who’s winning though? Well, certain countries are definitely doing much better than others at taking home the prize.
         However, when you look at who’s placed 1st, 2nd, and 3rd each year,
          you can see that although some countries aren’t winning,

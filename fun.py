@@ -15,14 +15,13 @@ def show_fun():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p>
         What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
         <p>
         First up, what does every Eurovision song have in common? 
         Well, maybe not all of them, but a whole lot certainly use these words.
         Here are the top 20 words used in Eurovision lyrics.
-        </p>
         </div>""", unsafe_allow_html=True
     )
 
@@ -31,7 +30,7 @@ def show_fun():
 # text about reciprocity
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p> We already told you something about how voting in Eurovision is impacted by national politics 
         (don't remember that? Check out Relationships!). But what if we looked at how fair those relationships are? 
         Do countries vote for one another equally? Of course not. Check out the reciprocity in Eurovision voting by country below, 
@@ -52,7 +51,7 @@ def show_fun():
 # text about key and country
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p> Ever wondered what a country songs like? 
         Well, it turns out Slovakia loves the key of A Major, 
         because every entry they've sent since 2009 has been in that key. 

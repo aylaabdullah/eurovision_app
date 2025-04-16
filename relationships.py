@@ -16,7 +16,7 @@ def show_relationships():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 16px;">
         <p>
         But what about just good, old fashioned politics? 
         It turns out, in Eurovision, some competitors start with an advantage just because of where they’re from. <p>
@@ -59,7 +59,7 @@ def show_relationships():
         </div>""", unsafe_allow_html=True
     )
 
-#INSERT Relationship Dashboard Here
+#Relationship Dashboard Here
 
     path_to_html = "./htmls/relationship_html.html" 
 

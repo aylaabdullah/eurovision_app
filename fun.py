@@ -28,6 +28,7 @@ def show_fun():
 
 #INSERT WORD CLOUD HERE
 
+# text about reciprocity
     st.markdown(
         """
         <div style="text-align: justify; font-size: 14px;">
@@ -36,14 +37,33 @@ def show_fun():
         Do countries vote for one another equally? Of course not. Check out the reciprocity in Eurovision voting by country below, 
         as well as the top 10 most uneven relationships since 2016. 
         (Shoutout to the Czech Republic, whose loyalty in voting is never reciprocated).
-
-        </p>
         </div>""", unsafe_allow_html=True
     )
 
 #Reciprocity Dashboard Here
 
     path_to_html = "./htmls/reciprocity_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+    
+# text about key and country
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 14px;">
+        <p> Ever wondered what a country songs like? 
+        Well, it turns out Slovakia loves the key of A Major, 
+        because every entry they've sent since 2009 has been in that key. 
+        Azerbaijan and Norway, in the meanwhile, really like to mix it up, 
+        changing the key of their song almost every year.
+        </div>""", unsafe_allow_html=True
+    )
+
+#Key_country Here
+
+    path_to_html = "./htmls/key_country_html.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()

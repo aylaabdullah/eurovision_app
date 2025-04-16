@@ -54,7 +54,7 @@ def show_fun():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        Ever wondered what a country songs like? 
+        Ever wondered what a country sounds like? 
         Well, it turns out Slovakia loves the key of A Major, 
         because every entry they've sent since 2009 has been in that key. 
         Azerbaijan and Norway, in the meanwhile, really like to mix it up, 

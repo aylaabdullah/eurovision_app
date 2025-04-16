@@ -6,7 +6,7 @@ def show_fun():
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 24px;">
-        Background
+        Fun Facts
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>
@@ -17,29 +17,36 @@ def show_fun():
         """
         <div style="text-align: justify; font-size: 14px;">
         <p>
-        Over time, the competitors in Eurovision have looked very different. 
-        Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
-        along with a link to their entry for that year.
+        What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
+        <p>
+        First up, what does every Eurovision song have in common? 
+        Well, maybe not all of them, but a whole lot certainly use these words.
+        Here are the top 20 words used in Eurovision lyrics.
         </p>
         </div>""", unsafe_allow_html=True
     )
 
-#INSERT FIRST/LAST YEAR MAPS HERE
+#INSERT WORD CLOUD HERE
 
     st.markdown(
         """
         <div style="text-align: justify; font-size: 14px;">
-        <p> So, who’s winning though? Well, certain countries are definitely doing much better than others at taking home the prize.
-        However, when you look at who’s placed 1st, 2nd, and 3rd each year,
-         you can see that although some countries aren’t winning,
-         they are certainly consistent top finishers.
+        <p> We already told you something about how voting in Eurovision is impacted by national politics 
+        (don't remember that? Check out Relationships!). But what if we looked at how fair those relationships are? 
+        Do countries vote for one another equally? Of course not. Check out the reciprocity in Eurovision voting by country below, 
+        as well as the top 10 most uneven relationships since 2016. 
+        (Shoutout to the Czech Republic, whose loyalty in voting is never reciprocated).
+
         </p>
         </div>""", unsafe_allow_html=True
     )
 
-# INSERT WINNERS AND TOP 3
+#Reciprocity Dashboard Here
 
+    path_to_html = "./htmls/reciprocity_html.html" 
 
-    # give some empty spaces in between
-    st.markdown("<br><br>", unsafe_allow_html=True)
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
     

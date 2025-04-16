@@ -13,6 +13,7 @@ def show_fun():
         """, unsafe_allow_html=True
     )
 
+# text about word cloud
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
@@ -67,7 +68,7 @@ def show_fun():
     with open(path_to_html,'r') as f: 
         html_data = f.read()
 
-    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+    st.components.v1.html(html_data, scrolling=True, height=500, width = 800)
 
     # text about first place by year
     st.markdown(
@@ -88,4 +89,23 @@ def show_fun():
         html_data = f.read()
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
-    
+
+ # text about gender and lgbtqia+ status
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 16px;">
+        How does gender and LGBTQIA+ identity impact song choices? See what percentages of all-men, 
+        all-women, 
+        and mix-gender groups, 
+        as well as LGBTQIA+ performers and cisgender, heterosexual performers chose specific musical genres and keys from 2009-2023.
+        </div>""", unsafe_allow_html=True
+    )
+
+#first_year Here
+
+    path_to_html = "./htmls/gender_dash_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)

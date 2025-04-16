@@ -93,7 +93,7 @@ The app is modular, organized into separate python files:
 - **Song Characteristics** 🎶: Analyze detailed data related to the musical characteristics of Eurovision songs.
 - **Relationships** 🤝: Discover the connections between countries in Eurovision voting.
 - **Betting** 💸: Dig deep into which betting organizations do best at predicting Eurovision outcomes.
-- **Fun Facts** 🤡: Find out which countries don't get enough love, how many winners there are every year, who likes to mix it up musically, and more.
+- **Fun Facts** 🤡: Find out which words appear the most in Eurovision lyrics, which countries don't get enough love, who likes to mix it up musically, and more.
 - **References** 📚: See the sources that made this app possible.
 
 ---

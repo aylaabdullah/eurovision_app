@@ -40,6 +40,12 @@ def show_references():
         unsafe_allow_html=True
     )
     st.link_button(url='https://en.wikipedia.org/wiki/List_of_LGBTQ_participants_in_the_Eurovision_Song_Contest', label = 'Page Link')
+
+    st.markdown(
+        "<h2 style='font-size: 18px;'>This app was made using Streamlit, Tableau, and Python <p>"
+        "(with Pandas, Matplotlib, Plotly, and Seaborn)</h2>",
+        unsafe_allow_html=True
+    )
 #empty spaces
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.write("------")

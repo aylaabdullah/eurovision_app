@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 # from PIL import Image
 # from analysis import add_footer
 
-def show_home():
+def show_song():
     # Title of the page
     st.markdown(
         """

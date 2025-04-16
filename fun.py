@@ -31,7 +31,7 @@ def show_fun():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        <p> We already told you something about how voting in Eurovision is impacted by national politics 
+       We already told you something about how voting in Eurovision is impacted by national politics 
         (don't remember that? Check out Relationships!). But what if we looked at how fair those relationships are? 
         Do countries vote for one another equally? Of course not. Check out the reciprocity in Eurovision voting by country below, 
         as well as the top 10 most uneven relationships since 2016. 
@@ -52,7 +52,7 @@ def show_fun():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        <p> Ever wondered what a country songs like? 
+        Ever wondered what a country songs like? 
         Well, it turns out Slovakia loves the key of A Major, 
         because every entry they've sent since 2009 has been in that key. 
         Azerbaijan and Norway, in the meanwhile, really like to mix it up, 
@@ -63,6 +63,26 @@ def show_fun():
 #Key_country Here
 
     path_to_html = "./htmls/key_country_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+
+    # text about first place by year
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 16px;">
+        We've already told you about which countries have won the most, but what about which years? 
+        1969 blew the competition out of the water, 
+        as France, the Netherlands, Spain, and the United Kingdom all took first that year. 
+        Sometimes even a competition can be collaborative. 
+        </div>""", unsafe_allow_html=True
+    )
+
+#first_year Here
+
+    path_to_html = "./htmls/first_year_html.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()

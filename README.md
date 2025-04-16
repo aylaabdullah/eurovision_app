@@ -7,7 +7,7 @@ This interactive web app, made by Ayla Abdullah, Neringa Šiožinytė, & Alexand
 
 This Streamlit web app:
 
-- Provides a **cbackground** about the Eurovision Song Contest.
+- Provides a **background** about the Eurovision Song Contest.
 - Highlightes different factors of Eurovision songs, contestants, and countries that may play a role in their success.
 - Gives you a **user-friendly interface** for exploring and visualizing Eurovision data to uncover surprising facts about the competition.
 - Describes the **data** used for this app, and any limitations in its methods.

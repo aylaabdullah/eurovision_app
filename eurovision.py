@@ -8,6 +8,8 @@ from song import show_song
 from betting import show_betting
 from fun import show_fun
 
+# set to wide
+st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 # Main application entry point
 def main():

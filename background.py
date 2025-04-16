@@ -27,7 +27,7 @@ def show_background():
 
 #Youtube Map Dashboard Here
 
-    path_to_html = "./htmls/youtube_map_html.html" 
+    path_to_html = "./htmls/background_maps.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()
@@ -47,7 +47,7 @@ def show_background():
 
 #Top3 Dashboard Here
 
-    path_to_html = "./htmls/top3_html.html" 
+    path_to_html = "./htmls/background_winners.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()

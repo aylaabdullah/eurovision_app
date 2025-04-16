@@ -7,6 +7,7 @@ from relationships import show_relationships
 from song import show_song
 from betting import show_betting
 from fun import show_fun
+from wordcloudeurovision import show_wordcloud
 
 
 # Main application entry point
@@ -21,6 +22,7 @@ def main():
         "Betting": show_betting,
         "Fun Facts": show_fun,
         "References": show_references,
+        "WordCloud": show_wordcloud
      }
     selected_page = st.sidebar.radio("Go to", list(pages.keys()))
 

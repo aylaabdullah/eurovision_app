@@ -44,7 +44,7 @@ def show_fun():
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 20px;">
-        ✨ Let, Love, Know: The 100 Most Sung Words in Eurovision History (1956–2023)
+        Let, Love, Know: The 100 Most Sung Words in Eurovision History (1956–2023)
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>

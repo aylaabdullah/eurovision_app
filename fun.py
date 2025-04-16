@@ -31,25 +31,34 @@ def show_fun():
         </p>
         """, unsafe_allow_html=True
     )
-
-# text about word cloud
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
         <p>
         What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
-        <p>
+        </div>""", unsafe_allow_html=True
+    )
+
+#word cloud title
+
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        ✨ Let, Love, Know: The 100 Most Sung Words in Eurovision History (1956–2023)
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
+# text about word cloud
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 16px;">
         First up, what does every Eurovision song have in common? 
         Well, maybe not all of them, but a whole lot certainly use these words.
         Here are the top 100 words used in Eurovision lyrics.
         </div>""", unsafe_allow_html=True
     )
-
-#INSERT WORD CLOUD HERE
-
-    st.subheader('✨ Let, Love, Know: The 100 Most Sung Words in Eurovision History (1956–2023)')
-
-
 
     # Download NLTK data (only needed first time)
     nltk.download('stopwords')
@@ -111,9 +120,17 @@ def show_fun():
     # Generate the word cloud
     wordcloud = create_lyrics_wordcloud(df)
 
-
+# reciprocity title
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        Reciprocity (or Lack Thereof) in Eurovision Voting
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
 # text about reciprocity
-    st.subheader('Exploring Reciprocity (or Lack Thereof) in Eurovision Voting')
 
     st.markdown(
         """
@@ -135,7 +152,17 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
     
-# text about key and country
+# reciprocity title
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        Country by Key
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
+    # text about key and country
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
@@ -147,7 +174,7 @@ def show_fun():
         </div>""", unsafe_allow_html=True
     )
 
-#Key_country Here
+    #Key_country Here
 
     path_to_html = "./htmls/key_country_html.html" 
 
@@ -156,6 +183,16 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=500, width = 800)
 
+    # winning by year title
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        Winning-est Year Ever
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
     # text about first place by year
     st.markdown(
         """
@@ -176,6 +213,16 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
 
+ # gender and lgbtqia+ title
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        Musical Choices by Gender and LGBTQIA+ Identity
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
  # text about gender and lgbtqia+ status
     st.markdown(
         """

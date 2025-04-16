@@ -61,7 +61,7 @@ def show_relationships():
 
 #INSERT Relationship Dashboard Here
 
-    path_to_html = "./htmls/all_html.html" 
+    path_to_html = "./htmls/relationship_html.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()

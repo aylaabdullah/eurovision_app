@@ -2,44 +2,40 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 def show_song():
-    # Title of the page
+     # Title of the page
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 24px;">
-        Background
+        Song Characteristics
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>
         """, unsafe_allow_html=True
     )
-
-    st.markdown(
-        """
-        <div style="text-align: justify; font-size: 14px;">
-        <p>
-        Over time, the competitors in Eurovision have looked very different. 
-        Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
-        along with a link to their entry for that year.
-        </p>
-        </div>""", unsafe_allow_html=True
-    )
-
-#INSERT FIRST/LAST YEAR MAPS HERE
-
-    st.markdown(
-        """
-        <div style="text-align: justify; font-size: 14px;">
-        <p> So, who’s winning though? Well, certain countries are definitely doing much better than others at taking home the prize.
-        However, when you look at who’s placed 1st, 2nd, and 3rd each year,
-         you can see that although some countries aren’t winning,
-         they are certainly consistent top finishers.
-        </p>
-        </div>""", unsafe_allow_html=True
-    )
-
-# INSERT WINNERS AND TOP 3
-
-
-    # give some empty spaces in between
-    st.markdown("<br><br>", unsafe_allow_html=True)
     
+# text about song data here
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 14px;">
+        How do the musical qualities of songs impact their performance in Eurovision? 
+        It turns out that some qualities of songs do influence their chances for success in Eurovision, 
+        sadly by playing it safe. 
+        Using the visualization below, 
+        explore how winning, top 10, and not-top 10 songs vary across different musical variables. 
+        Notably, check out how a songs' data distribution for beats per minute, 
+        backing singers (i.e., how many people on stage are performing backup vocals), 
+        and liveness (a Spotify metric for how present live performance elemtents are) all narrow between not-Top 10 and Top 10, 
+        and then again between Top 10 and winners.
+        This shows that songs that do better as their measurements for these variables fall within narrower and narrower ranges. 
+        In other words, musical creativity, at least by some measures, isn't rewared at Eurovision.
+        </div>""", unsafe_allow_html=True
+    )
+
+#Song box and whiskers here
+
+    path_to_html = "./htmls/song_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)

@@ -36,6 +36,14 @@ def show_betting():
         </div>""", unsafe_allow_html=True
     )
 
+#INSERT Betting Dashboard Here
+
+    path_to_html = "./htmls/betting_html.html" 
+
+    with open(path_to_html,'r') as f: 
+        html_data = f.read()
+
+    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
 
     # give some empty spaces in between
     st.markdown("<br><br>", unsafe_allow_html=True)

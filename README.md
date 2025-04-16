@@ -1,4 +1,4 @@
-# Eurovision-Analysis
+# Eurovision_App
 This interactive web app, made by Ayla Abdullah, Neringa Šiožinytė, & Alexander Wamboldt, analyzes Eurovision data across time.
 
 ---

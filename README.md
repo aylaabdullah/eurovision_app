@@ -28,13 +28,14 @@ The app is organized into several sections:
 
 The app is powered by:
 
+- **matplotlib**🗺️: For word cloud visualizations.
+- **nltk** 🧮: For word cloud visualizations.
+- **Pandas** 🐼: For data processing.
+- **Python** 🐍: For the backend and for data manipulation.
 - **Streamlit** 🌐: For the interactive app interface.
 - **Tableau** 📈: For interactive data visualizations.
-- **Python** 🐍: For the backend and for data manipulation.
-- **Pandas** 🐼: For data processing.
-- **nltk** 🧮: For word cloud visualizations.
 - **wordcloud**🌩️: For word cloud visualizations.
-- **matplotlib**🗺️: For word cloud visualizations.
+
 
 ---
 

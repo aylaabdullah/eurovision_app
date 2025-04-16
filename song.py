@@ -5,36 +5,39 @@ def show_song():
     # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 26px;">
-        What Makes a Winning Eurovision Entry:<p>
-        <p style="text-align: center; font-size: 20px; margin-top: -10px;">
-        What Data (if any) are a Good Predictor for Success in the Eurovision Song Contest? <p>
-        <p style="text-align: center; font-size: 16px; margin-top: -10px;">
-        Ayla Abdullah,  Neringa Šiožinytė, Alexander Wamboldt
+        <h1 style="text-align: center; font-size: 24px;">
+        Background
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>
         """, unsafe_allow_html=True
-        )
+    )
 
-    # Introduction
-    
     st.markdown(
         """
-        <h2 style="text-align: center; font-size: 20px;">Introduction</h2>
         <div style="text-align: justify; font-size: 14px;">
         <p>
-       The Eurovision Song Contest is an annual competition organized by the European Broadcast Union among its members.
-         Started in 1956, the contest features original songs that are performed by six or less people and broadcast live.
-         Voters in each competing country can then award points to their favorite entries (excluding their own),
-         though the voting method has changed over the years. But, what makes for a good Eurovision song?    
-         <p>
-         Well, that’s the question that these three nerds are going to try to answer.
-         For this analysis, we used data on the competitors and country votes from 1956-2023,
-         song-specific data from 2009-2023, betting organizations’ data from 2016-2023,
-         and some country participation and contestant demographic data from Wikipedia.
-         Full citations on data sources can be found in References.
-          </p>
+        Over time, the competitors in Eurovision have looked very different. 
+        Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
+        along with a link to their entry for that year.
+        </p>
         </div>""", unsafe_allow_html=True
     )
+
+#INSERT FIRST/LAST YEAR MAPS HERE
+
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 14px;">
+        <p> So, who’s winning though? Well, certain countries are definitely doing much better than others at taking home the prize.
+        However, when you look at who’s placed 1st, 2nd, and 3rd each year,
+         you can see that although some countries aren’t winning,
+         they are certainly consistent top finishers.
+        </p>
+        </div>""", unsafe_allow_html=True
+    )
+
+# INSERT WINNERS AND TOP 3
 
 
     # give some empty spaces in between

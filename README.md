@@ -24,7 +24,7 @@ The app is organized into several sections:
 
 ---
 
-## ⚙️ **Technology Stack**
+## 🤖 **Technology Stack**
 
 The app is powered by:
 
@@ -32,7 +32,9 @@ The app is powered by:
 - **Tableau** 📈: For interactive data visualizations.
 - **Python** 🐍: For the backend and for data manipulation.
 - **Pandas** 🐼: For data processing.
-- **NAME** 🧮: For word cloud visualizations.
+- **nltk** 🧮: For word cloud visualizations.
+- **wordcloud**🌩️: For word cloud visualizations.
+- **matplotlib**🗺️: For word cloud visualizations.
 
 ---
 
@@ -90,7 +92,7 @@ There are also folders for html files and data .csv files:
 
 ---
 
-## 🌏 **Exploring the App**
+## 🛩️ **Exploring the App**
 
 - **Home** 🏠: Learn about the Eurovision Song Contest and this app.
 - **Background** 🏅: See information about the contest's competitors, winners, and top finishers over time.
@@ -122,5 +124,3 @@ Ancient wisdom on Eurovision winners.
 **Alexander Wamboldt** 🦹🏻‍♂️
 Nefarious plotter of trivial projects.
 ---
-
-Thank you! 🌟

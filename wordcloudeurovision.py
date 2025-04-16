@@ -12,8 +12,6 @@ def show_wordcloud():
 
     st.header('The 100 Most Sung Words in Eurovision History (1956–2023)')
 
-
-
     # Download NLTK data (only needed first time)
     nltk.download('stopwords')
 

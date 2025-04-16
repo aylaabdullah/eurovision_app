@@ -43,6 +43,7 @@ The app is powered by:
 
 The app is modular, organized into separate python files:
 
+- `eurovision.py` — The App itself–only this file needs to be run to use this app.
 - `home.py` — Introduction page.
 - `background.py` — General information about countries' participation as well as winners and the Top 10.
 - `song.py` — Analysis of the musical qualities of Eurovision songs.

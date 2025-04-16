@@ -2,6 +2,17 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 def show_betting():
+    # image
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+        st.write(' ')
+
+    with col2:
+        st.image('./data/image.png')
+
+    with col3:
+        st.write(' ')
    # Title of the page
     st.markdown(
         """

@@ -45,17 +45,18 @@ def show_background():
         html_data = f.read()
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
-    # winners and top 3
+    
+    # top 3 and winners title
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 24px;">
-        Winners and Top 3
+        <h1 style="text-align: center; font-size: 20px;">
+        Best in Show
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>
         """, unsafe_allow_html=True
     )
-
+    # top 3 and winners text
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">

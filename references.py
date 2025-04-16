@@ -43,7 +43,7 @@ def show_references():
 
     st.markdown(
         "<h2 style='font-size: 18px;'>This app was made using Streamlit, Tableau, and Python <p>"
-        "(with Pandas, Matplotlib, Plotly, and Seaborn)</h2>",
+        "(with Pandas and nltk)</h2>",
         unsafe_allow_html=True
     )
 #empty spaces

@@ -1,5 +1,5 @@
 import pandas as pd
-from wordcloudeurovision import WordCloud, STOPWORDS
+from wordcloud import WordCloud, STOPWORDS
 from collections import Counter
 import matplotlib.pyplot as plt
 import re

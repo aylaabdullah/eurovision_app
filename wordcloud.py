@@ -17,7 +17,7 @@ st.header('The 100 Most Sung Words in Eurovision History (1956–2023)')
 # Download NLTK data (only needed first time)
 nltk.download('stopwords')
 
-df = pd.read_csv('contestants.csv')
+df = pd.read_csv('./data/contestants.csv')
 
 def create_lyrics_wordcloud(df, lyrics_col='lyrics', max_words=100):
    

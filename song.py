@@ -33,7 +33,7 @@ def show_song():
 
 #Song box and whiskers here
 
-    path_to_html = "./htmls/song_html.html" 
+    path_to_html = "./htmls/song_characteristics_box.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()

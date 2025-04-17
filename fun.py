@@ -143,14 +143,14 @@ def show_fun():
         </div>""", unsafe_allow_html=True
     )
 
-#reciprocity Dashboard Here
+# reciprocity Dashboard Here
 
     path_to_html = "./htmls/reciprocity_html.html" 
 
     with open(path_to_html,'r') as f: 
         html_data = f.read()
 
-    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+    st.components.v1.html(html_data, scrolling=True, height=900, width = 1600)
     
 # key and country title
     st.markdown(

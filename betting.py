@@ -16,7 +16,7 @@ def show_betting():
    # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 24px;">
+        <h1 style="text-align: center; font-size: 30px;">
         Betting on Eurovision: A Culture of Predictions and Surprises
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -26,7 +26,7 @@ def show_betting():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         <p>
         Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. Eurovision has become more than just a musical competition;
         it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
@@ -39,7 +39,7 @@ def show_betting():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         <p> In this section, we’ll take a closer look at how the betting landscape has evolved over the years. Specifically, we’ll explore:</p>
 
 <ul>
@@ -68,7 +68,7 @@ def show_betting():
 # INSERT POWER REGRESSIONS 
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Regression Royale: Betting Odds vs. Final Glory
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -77,7 +77,7 @@ def show_betting():
     )
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         <p> To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
         </p>
         </div>""", unsafe_allow_html=True

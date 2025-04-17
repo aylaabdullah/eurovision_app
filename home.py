@@ -51,4 +51,3 @@ def show_home():
 
     # give some empty spaces in between
     st.markdown("<br><br>", unsafe_allow_html=True)
-    

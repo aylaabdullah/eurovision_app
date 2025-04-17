@@ -17,7 +17,7 @@ def show_song():
     # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 24px;">
+        <h1 style="text-align: center; font-size: 30px;">
         Song Characteristics
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -28,7 +28,7 @@ def show_song():
 # text about song data here
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         How do the musical qualities of songs impact their performance in Eurovision? 
         It turns out that some qualities of songs do influence their chances for success in Eurovision, 
         sadly by playing it safe. 

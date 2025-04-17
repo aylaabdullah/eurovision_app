@@ -18,7 +18,7 @@ def show_relationships():
     # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 24px;">
+        <h1 style="text-align: center; font-size: 30px;">
         Relationships
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -28,7 +28,7 @@ def show_relationships():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         <p>
         But what about just good, old fashioned politics? 
         It turns out, in Eurovision, some competitors start with an advantage just because of where they’re from. <p>
@@ -86,7 +86,7 @@ def show_relationships():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 14px;">
+        <div style="text-align: justify; font-size: 20px;">
         </p>
         *Eurovision has changed its scoring system several times. 
         Prior to 1980, juries appointed by each country awarded points to their favorite songs 

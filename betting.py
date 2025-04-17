@@ -40,17 +40,15 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        <p> In this section, we’ll take a closer look at how the betting landscape has evolved over the years. Specifically, we’ll explore:
+        <p> In this section, we’ll take a closer look at how the betting landscape has evolved over the years. Specifically, we’ll explore:</p>
 
-              ->  Which countries placed in the top 3 each year
-                
-              ->  How various betting companies positioned their odds for those years
-                
-              ->  How closely those predictions aligned with the actual results
+<ul>
+    <li>Which countries placed in the top 3 each year</li>
+    <li>How various betting companies positioned their odds for those years</li>
+    <li>How closely those predictions aligned with the actual results</li>
+</ul>
 
-To dive deeper, I’ll also use power regression models to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
-
-Let’s explore whether the bookies saw it coming—or if Eurovision did what it does best: deliver the unexpected.
+<p>Let’s explore whether the bookies saw it coming—or if Eurovision did what it does best: deliver the unexpected.
         </p>
         </div>""", unsafe_allow_html=True
     )
@@ -68,6 +66,14 @@ Let’s explore whether the bookies saw it coming—or if Eurovision did what it
     st.markdown("<br><br>", unsafe_allow_html=True)
 
 # INSERT POWER REGRESSIONS 
+
+    st.markdown(
+        """
+        <div style="text-align: justify; font-size: 16px;">
+        <p> To dive deeper, I’ll also use <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
+        </p>
+        </div>""", unsafe_allow_html=True
+    )
 
     path_to_html = "./htmls/betting_dashboard.html" 
 

@@ -143,7 +143,7 @@ def show_fun():
         </div>""", unsafe_allow_html=True
     )
 
-#Reciprocity Dashboard Here
+#reciprocity Dashboard Here
 
     path_to_html = "./htmls/reciprocity_html.html" 
 

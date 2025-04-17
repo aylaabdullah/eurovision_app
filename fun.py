@@ -211,7 +211,7 @@ def show_fun():
     with open(path_to_html,'r') as f: 
         html_data = f.read()
 
-    st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
+    st.components.v1.html(html_data, scrolling=True, height=500, width = 800)
 
  # gender and lgbtqia+ title
     st.markdown(

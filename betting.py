@@ -66,7 +66,15 @@ def show_betting():
     st.markdown("<br><br>", unsafe_allow_html=True)
 
 # INSERT POWER REGRESSIONS 
-
+    st.markdown(
+        """
+        <h1 style="text-align: center; font-size: 20px;">
+        Regression Royale: Betting Odds vs. Final Glory
+        </h1>
+        <p style="text-align: center; font-size: 12px; margin-top: -10px;">
+        </p>
+        """, unsafe_allow_html=True
+    )
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">

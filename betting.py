@@ -17,7 +17,7 @@ def show_betting():
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 24px;">
-        Background
+        Betting on Eurovision: A Culture of Predictions and Surprises
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
         </p>
@@ -28,22 +28,29 @@ def show_betting():
         """
         <div style="text-align: justify; font-size: 16px;">
         <p>
-        Over time, the competitors in Eurovision have looked very different. 
-        Below, you can find visualizations of the first and most recent years that different countries have competed in Eurovision, 
-        along with a link to their entry for that year.
+        Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. Eurovision has become more than just a musical competition;
+        it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
+        and even tho might come in last. While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year.
         </p>
         </div>""", unsafe_allow_html=True
     )
 
-#first and last year youtube maps
+# Intro table
 
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        <p> So, who’s winning though? Well, certain countries are definitely doing much better than others at taking home the prize.
-        However, when you look at who’s placed 1st, 2nd, and 3rd each year,
-         you can see that although some countries aren’t winning,
-         they are certainly consistent top finishers.
+        <p> In this section, we’ll take a closer look at how the betting landscape has evolved over the years. Specifically, we’ll explore:
+
+              ->  Which countries placed in the top 3 each year
+                
+              ->  How various betting companies positioned their odds for those years
+                
+              ->  How closely those predictions aligned with the actual results
+
+To dive deeper, I’ll also use power regression models to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
+
+Let’s explore whether the bookies saw it coming—or if Eurovision did what it does best: deliver the unexpected.
         </p>
         </div>""", unsafe_allow_html=True
     )

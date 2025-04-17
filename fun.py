@@ -24,7 +24,7 @@ def show_fun():
     # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 24px;">
+        <h1 style="text-align: center; font-size: 30px;">
         Fun Facts
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -33,7 +33,7 @@ def show_fun():
     )
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         <p>
         What's Eurovision without some weird trivia? Here are some of our favorite odd, strange, or just funny findings.
         </div>""", unsafe_allow_html=True
@@ -43,7 +43,7 @@ def show_fun():
 
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Let, Love, Know: The 100 Most Sung Words in Eurovision History (1956–2023)
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -53,7 +53,7 @@ def show_fun():
 # text about word cloud
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         First up, what does every Eurovision song have in common? 
         Well, maybe not all of them, but a whole lot certainly use these words.
         Here are the top 100 words used in Eurovision lyrics.
@@ -123,7 +123,7 @@ def show_fun():
 # reciprocity title
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Reciprocity (or Lack Thereof) in Eurovision Voting
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -134,7 +134,7 @@ def show_fun():
 
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
        We already told you something about how voting in Eurovision is impacted by national politics 
         (don't remember that? Check out Relationships!). But what if we looked at how fair those relationships are? 
         Do countries vote for one another equally? Of course not. Check out the reciprocity in Eurovision voting by country below, 
@@ -155,7 +155,7 @@ def show_fun():
 # key and country title
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Country by Key
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -165,7 +165,7 @@ def show_fun():
     # text about key and country
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         Ever wondered what a country sounds like? 
         Well, it turns out Slovakia loves the key of A Major, 
         because every entry they've sent since 2009 has been in that key. 
@@ -186,7 +186,7 @@ def show_fun():
     # winning by year title
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Winning-est Year Ever
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -196,7 +196,7 @@ def show_fun():
     # text about first place by year
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         We've already told you about which countries have won the most, but what about which years? 
         1969 blew the competition out of the water, 
         as France, the Netherlands, Spain, and the United Kingdom all took first that year. 
@@ -216,7 +216,7 @@ def show_fun():
  # gender and lgbtqia+ title
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 20px;">
+        <h1 style="text-align: center; font-size: 26px;">
         Musical Choices by Gender and LGBTQIA+ Identity
         </h1>
         <p style="text-align: center; font-size: 12px; margin-top: -10px;">
@@ -226,7 +226,7 @@ def show_fun():
  # text about gender and lgbtqia+ status
     st.markdown(
         """
-        <div style="text-align: justify; font-size: 16px;">
+        <div style="text-align: justify; font-size: 22px;">
         How does gender and LGBTQIA+ identity impact song choices? See what percentages of all-men, 
         all-women, 
         and mix-gender groups, 

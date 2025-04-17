@@ -17,11 +17,11 @@ def show_home():
     # Title of the page
     st.markdown(
         """
-        <h1 style="text-align: center; font-size: 26px;">
+        <h1 style="text-align: center; font-size: 32px;">
         What Makes a Winning Eurovision Entry:<p>
-        <p style="text-align: center; font-size: 20px; margin-top: -10px;">
+        <p style="text-align: center; font-size: 26px; margin-top: -10px;">
         What Data (if any) are a Good Predictor for Success in the Eurovision Song Contest? <p>
-        <p style="text-align: center; font-size: 16px; margin-top: -10px;">
+        <p style="text-align: center; font-size: 22px; margin-top: -10px;">
         Ayla Abdullah,  Neringa Šiožinytė, Alexander Wamboldt
         </p>
         """, unsafe_allow_html=True
@@ -31,8 +31,8 @@ def show_home():
     
     st.markdown(
         """
-        <h2 style="text-align: center; font-size: 20px;">Introduction</h2>
-        <div style="text-align: justify; font-size: 14px;">
+        <h2 style="text-align: center; font-size: 26px;">Introduction</h2>
+        <div style="text-align: justify; font-size: 22px;">
         <p>
        The Eurovision Song Contest is an annual competition organized by the European Broadcast Union among its members.
          Started in 1956, the contest features original songs that are performed by six or less people and broadcast live.

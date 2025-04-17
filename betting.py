@@ -70,7 +70,7 @@ def show_betting():
     st.markdown(
         """
         <div style="text-align: justify; font-size: 16px;">
-        <p> To dive deeper, I’ll also use <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
+        <p> To dive deeper, we've used <strong>power regression models</strong> to analyze the relationship between betting odds and final placements—helping us understand just how predictive (or not) the odds really were.
         </p>
         </div>""", unsafe_allow_html=True
     )

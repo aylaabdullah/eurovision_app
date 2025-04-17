@@ -152,7 +152,7 @@ def show_fun():
 
     st.components.v1.html(html_data, scrolling=True, height=1000, width = 1600)
     
-# reciprocity title
+# key and country title
     st.markdown(
         """
         <h1 style="text-align: center; font-size: 20px;">

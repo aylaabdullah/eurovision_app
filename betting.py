@@ -30,7 +30,7 @@ def show_betting():
         <p>
         Each year, as the Eurovision Song Contest draws near, fans across Europe - and beyond - start placing their bets. Eurovision has become more than just a musical competition;
         it's a spectacle of culture, performance and passionate predictions. Betting companies have capitalized on this excitement, offering odds on potential winners, finalists,
-        and even tho might come in last. While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year.
+        and even who might come in last. While some companies consistently cover the event, others dip in and out, and not all ofer bets on every country or every year.
         </p>
         </div>""", unsafe_allow_html=True
     )

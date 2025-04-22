@@ -111,7 +111,9 @@ There are also folders for html files and data .csv files:
 - Song, vote, betting, and contestant data from referenced sourced and Wikipedia web scraping.
 - Data cleaned using Python.
 - Data transformed and key metrics built using dbt and SQL.
-- Data visualizations made using Tableau and .
+- Data visualizations made using Tableau as well as Matplotlib, nltk, and wordcloud.
+
+![image info](./data/pipeline_image.png)
 
 ---
 
